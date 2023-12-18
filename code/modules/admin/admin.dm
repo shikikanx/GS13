@@ -1016,7 +1016,7 @@
 	if(!check_rights(R_ADMIN))
 		return
 
-	to_chat(M, "<span class='warning bold reallybig'>Man up, and deal with it.</span><br><span class='warning big'>Move on.</span>")
+	to_chat(M, "<span class='warning bold reallybig'>Bad stuff can happen for all kinds of reasons here. The way out is the way through.</span><br><span class='warning big'>Keep on keeping on.</span>")
 	M.playsound_local(M, 'modular_citadel/sound/misc/manup.ogg', 50, FALSE, pressure_affected = FALSE)
 
 	log_admin("Man up: [key_name(usr)] told [key_name(M)] to man up")
@@ -1032,7 +1032,7 @@
 	if(!check_rights(R_ADMIN))
 		return
 
-	to_chat(world, "<span class='warning bold reallybig'>Man up, and deal with it.</span><br><span class='warning big'>Move on.</span>")
+	to_chat(world, "<span class='warning bold reallybig'>Bad stuff can happen for all kinds of reasons here. The way out is the way through.</span><br><span class='warning big'>Keep on keeping on.</span>")
 	for(var/mob/M in GLOB.player_list)
 		M.playsound_local(M, 'modular_citadel/sound/misc/manup.ogg', 50, FALSE, pressure_affected = FALSE)
 
